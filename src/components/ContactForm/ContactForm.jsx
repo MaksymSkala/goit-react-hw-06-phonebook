@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../reducers/contactsSlice';
+import { addContact } from '../../reducers/contactsSlice';
 import './ContactForm.css';
 
 const ContactForm = () => {
